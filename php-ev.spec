@@ -4,10 +4,10 @@
 #
 Name     : php-ev
 Version  : 1.0.8
-Release  : 3
+Release  : 4
 URL      : https://pecl.php.net/get/ev-1.0.8.tgz
 Source0  : https://pecl.php.net/get/ev-1.0.8.tgz
-Summary  : PHP extension for interface to libev library
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause
 Requires: php-ev-lib = %{version}-%{release}
@@ -46,4 +46,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/ev.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/ev.so
