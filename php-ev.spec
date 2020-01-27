@@ -4,7 +4,7 @@
 #
 Name     : php-ev
 Version  : 1.0.8
-Release  : 2
+Release  : 3
 URL      : https://pecl.php.net/get/ev-1.0.8.tgz
 Source0  : https://pecl.php.net/get/ev-1.0.8.tgz
 Summary  : PHP extension for interface to libev library
