@@ -4,12 +4,12 @@
 #
 Name     : php-ev
 Version  : 1.0.8
-Release  : 4
+Release  : 5
 URL      : https://pecl.php.net/get/ev-1.0.8.tgz
 Source0  : https://pecl.php.net/get/ev-1.0.8.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
-License  : BSD-2-Clause
+License  : BSD-2-Clause PHP-3.01
 Requires: php-ev-lib = %{version}-%{release}
 BuildRequires : buildreq-php
 
