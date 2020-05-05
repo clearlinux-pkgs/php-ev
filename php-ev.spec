@@ -4,7 +4,7 @@
 #
 Name     : php-ev
 Version  : 1.0.8
-Release  : 6
+Release  : 7
 URL      : https://pecl.php.net/get/ev-1.0.8.tgz
 Source0  : https://pecl.php.net/get/ev-1.0.8.tgz
 Summary  : No detailed summary available
