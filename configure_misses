@@ -4,10 +4,6 @@ Configure miss: if compiler supports -R
 Configure miss: if debug is enabled
 Configure miss: if zts is enabled
 Configure miss: ev debug support
-Configure miss: sys/event.h usability
-Configure miss: sys/event.h presence
 Configure miss: sys/event.h
-Configure miss: port.h usability
-Configure miss: port.h presence
 Configure miss: port.h
 Configure miss: port_create
