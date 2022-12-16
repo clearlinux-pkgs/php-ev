@@ -4,13 +4,14 @@
 #
 Name     : php-ev
 Version  : 1.1.5
-Release  : 35
+Release  : 36
 URL      : https://pecl.php.net/get/ev-1.1.5.tgz
 Source0  : https://pecl.php.net/get/ev-1.1.5.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause PHP-3.01
 Requires: php-ev-lib = %{version}-%{release}
+Requires: php-ev-license = %{version}-%{release}
 BuildRequires : buildreq-php
 
 %description
@@ -20,9 +21,18 @@ libev is a high-performance event loop/event model with lots of features.
 %package lib
 Summary: lib components for the php-ev package.
 Group: Libraries
+Requires: php-ev-license = %{version}-%{release}
 
 %description lib
 lib components for the php-ev package.
+
+
+%package license
+Summary: license components for the php-ev package.
+Group: Default
+
+%description license
+license components for the php-ev package.
 
 
 %prep
@@ -38,6 +48,9 @@ phpize
 make  %{?_smp_mflags}
 
 %install
+mkdir -p %{buildroot}/usr/share/package-licenses/php-ev
+cp %{_builddir}/ev-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-ev/3ceae864520a5a1090f70804809d06df611778ea
+cp %{_builddir}/ev-%{version}/libev/LICENSE %{buildroot}/usr/share/package-licenses/php-ev/10e633ee2e9f8a961554d0d579f03a1d0755ff3b
 %make_install
 
 
@@ -46,4 +59,9 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20210902/ev.so
+/usr/lib64/extensions/no-debug-non-zts-20220829/ev.so
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/php-ev/10e633ee2e9f8a961554d0d579f03a1d0755ff3b
+/usr/share/package-licenses/php-ev/3ceae864520a5a1090f70804809d06df611778ea

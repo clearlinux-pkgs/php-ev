@@ -6,3 +6,4 @@ Configure miss: port.h
 Configure miss: port_create
 Configure miss: suncc
 Configure miss: sys/event.h
+Configure miss: x86_64-generic-linux-gnu-file
