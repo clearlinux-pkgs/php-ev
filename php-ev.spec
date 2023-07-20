@@ -4,7 +4,7 @@
 #
 Name     : php-ev
 Version  : 1.1.5
-Release  : 47
+Release  : 48
 URL      : https://pecl.php.net/get/ev-1.1.5.tgz
 Source0  : https://pecl.php.net/get/ev-1.1.5.tgz
 Summary  : No detailed summary available
