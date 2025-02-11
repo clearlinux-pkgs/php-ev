@@ -7,7 +7,7 @@
 #
 Name     : php-ev
 Version  : 1.2.0
-Release  : 81
+Release  : 82
 URL      : https://pecl.php.net/get/ev-1.2.0.tgz
 Source0  : https://pecl.php.net/get/ev-1.2.0.tgz
 Summary  : No detailed summary available
